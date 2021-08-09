@@ -57,5 +57,14 @@ console.log( '------------------------------------------------------------' )
 
 // Precurso (3) ; for..of
 for(let f of frutas) {
-    console.log(f)
+    console.log(frutas)
 }
+
+console.log( '------------------------------------------------------------' )
+
+// Percurso (3): forEach()
+// forEach() tem como parâmetro uma função que será chamada
+// para cada elemento do vetor
+frutas.forEach(function(elemento) {
+    console.log(elemento)
+})
