@@ -35,7 +35,7 @@ console.log(potencia2(2, 5))
 
 console.log( '------------------------------------------------------------' )
 
-// Funçãi tradicional sem parâmetros, 1 linha de corpo com return
+// Função tradicional sem parâmetros, 1 linha de corpo com return
 function dataHoraAtual(){
     return new Date()
 }
