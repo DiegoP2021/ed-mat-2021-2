@@ -30,5 +30,21 @@ console.log('Posição de abacate:', buscaSequencial(frutas, 'abacate'))
 
 import { nomes } from './data/vetor-nomes.mjs'
 
+console.time('Buscando DIEGO...')        // Dispara a contagem do tempo
 console.log('Posição de DIEGO:' , buscaSequencial(nomes, 'DIEGO'))
+console.timeEnd('Buscando DIEGO...')    // Para a contagem do tempo
+
+console.time('Buscando VERONICA...')    // Dispara a contagem do tempo
+console.log('Posição de VERONICA:', buscaSequencial(nomes, 'VERONICA'))    
+console.timeEnd('Buscando VERONICA')    // Para a contagem do tempo
+
+
+console.time('Buscando BERNARDO...')
+console.log('Posição de BERNARDO:', buscaSequencial(nomes, 'BERNARDO'))
+console.timeEnd('Buscando BERNARDO')
+
+
+console.time('Buscando ORKUTILSON...')
+console.log('Posição de ORKUTILSON:', buscaSequencial(nomes, 'ORKUTILSON'))
+console.timeEnd('Buscando ORKUTILSON')
 
